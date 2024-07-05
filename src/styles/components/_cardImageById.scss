@@ -1,0 +1,36 @@
+.imageById {
+    margin: 5% 20%;
+
+    &-card {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 2%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        width: 800px;
+        width: 100%;
+        height: 100%;
+
+        &-container {
+            width: 100%;
+            height: 100%;
+    
+            &-image {
+                width: 60%;
+                height: 60%;
+            }
+        }
+
+        &-text-container {
+            padding: 5%;
+    
+            .image-title {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+    
+}

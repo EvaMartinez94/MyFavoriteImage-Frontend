@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "title": "Árbol1",
+      "description": "soy una imagen",
+      "url": "src/assets/images/arbol.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "Lago",
+      "description": "soy una imagen",
+      "url": "src/assets/images/hojas.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Hojas",
+      "description": "soy una imagen",
+      "url": "src/assets/images/hojas.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Árbol",
+      "description": "soy una imagen",
+      "url": "src/assets/images/hojas.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Lago",
+      "description": "soy una imagen",
+      "url": "src/assets/images/hojas.jpg"
+    }
+  ]
+}

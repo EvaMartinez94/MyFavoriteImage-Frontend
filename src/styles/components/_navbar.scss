@@ -1,0 +1,13 @@
+.navbar-link-container{
+    display: flex;
+
+    .navbar-link{
+        text-decoration: none;
+        color: $color-black;
+        margin: 2%;
+    }
+    
+    .navbar-text:hover{
+        transform: scale(1.3);
+    }
+}

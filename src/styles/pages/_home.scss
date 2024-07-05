@@ -1,0 +1,32 @@
+.home-background {
+    background-image: url($background-img-url);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+    .home-title {
+
+        text-decoration: none;
+        color: $color-black;
+
+        &-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+        &-text {
+            text-align: center;
+            font-size: 80px;
+            font-family: $font-family;
+        }
+
+        &-text:hover {
+            transform: scale(1.3);
+        }
+    }
+
+}

@@ -1,0 +1,12 @@
+@import './variables';
+
+//pages
+@import './pages/home';
+@import './pages/favoriteImage';
+@import './pages/addImage';
+@import './pages/login';
+
+//components
+@import './components/cardImage';
+@import './components/cardImageById';
+@import './components/navbar';
