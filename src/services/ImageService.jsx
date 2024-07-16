@@ -68,13 +68,23 @@ const deleteImage = async (id) => {
         throw error;
     }
 };
+const toggleFavorite = async (id) => {
+    try {
+        const response = await axios.put(`${API_BASE_URL}/images/${id}/favorite`, headers);
+        return response.data;
+    } catch (error) {
+        console.error('Error trying to toggle favorite status', error);
+        throw error;
+    }
+};
 
 const ImageService = {
     getAllImages,
     getImageById,
     addImage,
     updateImage,
-    deleteImage
+    deleteImage,
+    toggleFavorite
 };
 
 export default ImageService;

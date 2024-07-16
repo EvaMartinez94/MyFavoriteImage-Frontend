@@ -19,6 +19,14 @@ const FavoriteImage = () => {
             console.error('Error trying to fetch images', error);
         }
     }
+    const handleFavorite = async (id) => {
+        try {
+            await ImageService.toggleFavorite(id);
+            imagesList();
+        } catch (error) {
+            console.error('Error trying to update favorite status', error);
+        }
+    };
 
     return (
         <div className='images'>
@@ -32,7 +40,7 @@ const FavoriteImage = () => {
             <div className='cards-container'>
                 {
                     images.map((image) =>
-                        <CardImage key={image.id} image={image} />
+                        <CardImage key={image.id} image={image} onFavorite={handleFavorite} />
                     )
                 }
             </div>

@@ -46,4 +46,13 @@ body {
     .icons{
         margin: 5%
     }
+    .icons {
+        width: 45px; 
+        height: 45px; 
+        display: inline-block;
+        vertical-align: middle;
+        border: none;
+        box-shadow: none; 
+        background: none; 
+}
 }
