@@ -45,7 +45,7 @@ const Login = () => {
                 <h1>Soon.....</h1> 
             </div>
 
-            {/* <div>
+            {<div>
                 <form onSubmit={handleLogin}>
                     <div className="form-group mb-2">
                         <label htmlFor="username">Username</label>
@@ -85,7 +85,7 @@ const Login = () => {
                         </div>
                     )}
                 </form>
-            </div> */}
+            </div>}
         </div>
     );
 };
